@@ -1,5 +1,6 @@
 {
-  "api_key":"R_506b3f712a83465eae65c9d2bb6e9f82",
+  // Instructions to find your credentials: https://support.bitly.com/hc/en-us/articles/231140388-How-do-I-find-my-API-key-
+  "api_key":"YOUR API KEY",
   "api_url":"https://api-ssl.bitly.com",
-  "api_login":"o_2j142eg2d1"
+  "api_login":"YOUR LOGIN NAME"
 }
