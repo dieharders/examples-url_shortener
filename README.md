@@ -1,4 +1,4 @@
-# examples-url_shortener
+# Example URL Shortener
 
 ![Preview Chat](https://github.com/dieharders/examples-url_shortener/blob/master/preview.jpg)
 
