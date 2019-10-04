@@ -79,7 +79,7 @@
 				// this example uses jquery, but it can be replicated using any other js library
 				// or just a generic xmlhttprequest (implemented without a library)
 				$.ajax({
-					url: "../link_shortener/js/api_key_include.js", // << this should return the data
+					url: "js/api_key_include.js", // credentials for Bit.ly
 					success: function(data) {
 						api_key      = data.api_key;
 						api_url      = data.api_url;
@@ -95,8 +95,7 @@
 					// hide output Form
 					$("#copyForm").hide();
 					// get url form current page
-					var url = null;
-					url = window.location.href;
+					var url = 'https://www.google.com';
 					var outputURL = null;
 					$("#urlInput").attr("placeholder", url);
 					// for example, binding a handler to the click event of an element with the id of shorten
